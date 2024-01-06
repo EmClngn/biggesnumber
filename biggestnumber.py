@@ -8,10 +8,17 @@
 first_number = input("What is your first number: ")
 second_number = input("What is your second number: ")
 third_number = input("What is your third number: ")
-# Just to check
-print(first_number, second_number, third_number)
+
 
 # Make a way to find the biggest number among the 3 user inputs using if-else statement
+if first_number >= second_number and first_number >= third_number:
+    biggest_number = first_number
+elif second_number >= third_number:
+    biggest_number = second_number
+else:
+    biggest_number = third_number
+
 # Print the biggest number
+print(biggest_number)
 # Do something to handle errors
 # Transform the code for tkinter
