@@ -1,5 +1,9 @@
 # Ask user to input 3 numbers. Find and print the biggest number using only if-else statement
 
+# Transform the code for tkinter
+from tkinter import *
+
+window = Tk()
 
 # pseudo code
 
@@ -25,3 +29,5 @@ while True:
         print("Only input numerical values. Please try again...")
       
 # Transform the code for tkinter
+
+window.mainloop()
