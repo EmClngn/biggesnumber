@@ -8,7 +8,31 @@ window = Tk()
 # pseudo code
 
 # Do something to handle errors(Errors are decimals and characters besides numbers)
-while True:
+
+# Ask user for 3 inputs of number
+number_list = (Label(window, text = "Give me your numbers"))
+number_list.pack()
+
+first_entry = (Entry(window))
+second_entry = (Entry(window))
+third_entry = (Entry(window))
+
+first_entry.pack()
+second_entry.pack()
+third_entry.pack()
+
+
+# Make a way to find the biggest number among the 3 user inputs using if-else statement
+        
+# Print the biggest number
+        
+      
+# Transform the code for tkinter
+
+window.mainloop()
+
+# just to not forget
+"""while True:
     try:
 # Ask user for 3 inputs of number
         first_number = float(input("What is your first number: "))
@@ -28,6 +52,4 @@ while True:
     except ValueError:
         print("Only input numerical values. Please try again...")
       
-# Transform the code for tkinter
-
-window.mainloop()
+# Transform the code for tkinter"""
