@@ -33,7 +33,7 @@ def finding_the_biggest ():
                            font = ("Times", 10))
    
 # Ask user for 3 inputs of number
-number_list = (Label(window, text = "\n""Give me your numbers""\n",
+number_list = (Label(window, text = "\n""What are your chosen numbers?""\n",
                      font = ("Times", 15),
                      bg = "navajowhite",
                      fg = "gray1"))
